@@ -1,0 +1,36 @@
+{
+  "name": "ems_collegeprojectbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parin-2002/EMS_CollegeProjectBackend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parin-2002/EMS_CollegeProjectBackend/issues"
+  },
+  "homepage": "https://github.com/parin-2002/EMS_CollegeProjectBackend#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "googleapis": "^95.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.1",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.2",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,0 +1,125 @@
+.headcontact {
+  background-color: #1d366d;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 0px 10px 50px;
+  margin: 0px;
+}
+
+.navbar {
+  height: 60px;
+  box-shadow: 0px 5px 5px rgba(128, 8, 8, 0.09);
+  background: #ffffff;
+}
+
+nav .navbar-brand {
+  color: #1d366d;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.navbar-brand i {
+  margin-right: 5px;
+}
+
+.title-heading {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+a:hover {
+  outline: none;
+  color: #387cf7;
+}
+
+i.menu {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #1d366d;
+}
+
+nav a.nav-link {
+  color: black;
+  font-weight: 550;
+}
+
+nav a.nav-link:hover {
+  color: #387cf7;
+}
+
+nav a.nav-link.active {
+  color: #387cf7;
+}
+.nav-btn {
+  background-color: #387cf7;
+  padding: 8px 25px;
+}
+.nav-btn:hover {
+  background-color: #1d366d;
+}
+
+.title-logo {
+  color: #1d366d;
+  font-size: 1500%;
+  animation: animationlogo 5s ease-out 0s alternate infinite none running;
+}
+
+@keyframes animationlogo {
+  form {
+    transform: scale(0);
+    color: #1d366d;
+  }
+  to {
+    transform: scale(1.1);
+    color: #387cf7;
+  }
+}
+
+div.services i {
+  font-size: 40px;
+}
+div.services div.row div {
+  padding: 10px 0px 10px 10px;
+  border: 1px solid #1d366d;
+  border-top: 5px solid #387cf7;
+  margin: 2px;
+}
+
+.portal-title {
+  color: #1d366d;
+  font-family: 550;
+}
+
+.services div {
+  border: 2px solid #1d366d;
+  padding: 10px 0px 10px 20px;
+  border-top: 5px solid #387cf7;
+  border-radius: 5px;
+}
+
+.title-h2 {
+  margin: 30px 0px 10px 0px !important;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.services div h4 {
+  margin-top: 5px;
+}
+.shadow {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.services div:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5) !important;
+}
+
+@media (max-width: 640px) {
+  .headcontact {
+    font-size: 13px;
+    padding: 10px;
+    text-align: center;
+  }
+  .title-heading {
+    font-size: 3rem;
+  }
+}

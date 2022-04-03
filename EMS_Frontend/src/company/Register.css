@@ -1,0 +1,28 @@
+/* it is accessable in another componet as well */
+
+.h1-reg {
+  color: #1d366d;
+  font-weight: 600;
+}
+.h5-reg {
+  color: #1d366d;
+  text-align: center;
+  margin-top: 20px !important;
+}
+
+div.box {
+  border: 2px solid #1d366d;
+  border-top: 5px solid #387cf7;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.2), -5px -5px 5px rgb(0, 0, 0, 0.2);
+}
+
+.form-control {
+  width: 100%;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+}

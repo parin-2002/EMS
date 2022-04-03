@@ -1,0 +1,12 @@
+.edit:hover {
+  color: #0d6efd !important;
+}
+.delete:hover {
+  color: #0d6efd !important;
+}
+.edit {
+  color: #1d366d;
+}
+.delete {
+  color: #1d366d;
+}
