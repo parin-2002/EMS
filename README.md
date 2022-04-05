@@ -102,7 +102,7 @@ I have already given one env file with minimal information in the Project folder
 
 ####  Company Methods
 
-```http
+```
   POST /api/company/register
 ```
 | Parameter | Type     | Description                |
@@ -116,31 +116,31 @@ I have already given one env file with minimal information in the Project folder
 | `links` | `Array Object` | **Not Required** |
 | `numberOfemployees` | `Number` | **Required** |
 
-```http
+```
   POST /api/company/verifyRegistation
 ```
 
-```http
+```
   POST /api/company/resendotp
 ```
 
-```http
+```
   POST /api/company/login
 ```
 
-```http
+```
   GET /api/company/selectcompanydetail
 ```
 
-```http
+```
   PUT /api/company/editaccount
 ```
 
-```http
+```
   PUT /api/company/updatepassword
 ```
 
-```http
+```
   PUT /api/company/updateicon
 ```
 
