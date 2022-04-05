@@ -17,7 +17,7 @@ mongoose.connect(process.env.DATABASE_URL, {
 
 // //database connection for cloud
 // mongoose.connect(
-//   "mongodb+srv://parin:parin2002@ems.myusz.mongodb.net/EMS?retryWrites=true&w=majority",
+//   "add your cloud database link of mongodb",
 //   {
 //     useNewUrlParser: true,
 //     useUnifiedTopology: true,
