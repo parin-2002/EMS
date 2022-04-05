@@ -20,6 +20,7 @@
 
 ## Documentation
 
+[presentation](https://docs.google.com/presentation/d/1ePOyiQO1FYowh16nG_9twuLAdCEg0SfFq8tbpUCUXQA/edit)
 [Documentation](https://github.com/parin-2002/EMS/blob/main/documentation/sem-6-project-docs.pdf)
 
 
