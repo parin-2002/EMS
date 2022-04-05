@@ -94,3 +94,57 @@ You will find REFRESH_TOKEN, CLIENT_SECRET, CLIENT_ID on google console when you
 `OTPTIME`
 
 I have already given one env file with minimal information in the Project folder.
+
+
+
+## API Reference
+
+
+####  Company Methods
+
+```http
+  POST /api/company/register
+```
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `name` | `string` | **Required** |
+| `email` | `string` | **Required** |
+| `mobileno` | `string` | **Required** |
+| `address` | `string` | **Required** |
+| `password` | `string` | **Required** |
+| `aboutcompany` | `string` | **Required** |
+| `links` | `Array Object` | **Not Required** |
+| `numberOfemployees` | `Number` | **Required** |
+
+```http
+  POST /api/company/verifyRegistation
+```
+
+```http
+  POST /api/company/resendotp
+```
+
+```http
+  POST /api/company/login
+```
+
+```http
+  GET /api/company/selectcompanydetail
+```
+
+```http
+  PUT /api/company/editaccount
+```
+
+```http
+  PUT /api/company/updatepassword
+```
+
+```http
+  PUT /api/company/updateicon
+```
+
+
+
+
+
