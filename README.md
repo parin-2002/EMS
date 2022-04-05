@@ -1,6 +1,9 @@
 
 # EMS (Employee Management System)
 
+## Screenshots
+
+![App Screenshot](https://raw.githubusercontent.com/parin-2002/EMS/main/documentation/homepage1.PNG)
 
 
 ## Tech Stack
@@ -90,3 +93,4 @@ You will find REFRESH_TOKEN, CLIENT_SECRET, CLIENT_ID on google console when you
 
 `OTPTIME`
 
+I have already given one env file with minimal information in the Project folder.
