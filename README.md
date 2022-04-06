@@ -20,6 +20,7 @@
 
 ## Documentation
 
+[presentation](https://docs.google.com/presentation/d/1ePOyiQO1FYowh16nG_9twuLAdCEg0SfFq8tbpUCUXQA/edit?usp=sharing_eil_se_dm&ts=6243078e)
 [Documentation](https://github.com/parin-2002/EMS/blob/main/documentation/sem-6-project-docs.pdf)
 
 
@@ -94,3 +95,57 @@ You will find REFRESH_TOKEN, CLIENT_SECRET, CLIENT_ID on google console when you
 `OTPTIME`
 
 I have already given one env file with minimal information in the Project folder.
+
+
+
+## API Reference
+
+
+####  Company Methods
+
+```
+  POST /api/company/register
+```
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `name` | `string` | **Required** |
+| `email` | `string` | **Required** |
+| `mobileno` | `string` | **Required** |
+| `address` | `string` | **Required** |
+| `password` | `string` | **Required** |
+| `aboutcompany` | `string` | **Required** |
+| `links` | `Array Object` | **Not Required** |
+| `numberOfemployees` | `Number` | **Required** |
+
+```
+  POST /api/company/verifyRegistation
+```
+
+```
+  POST /api/company/resendotp
+```
+
+```
+  POST /api/company/login
+```
+
+```
+  GET /api/company/selectcompanydetail
+```
+
+```
+  PUT /api/company/editaccount
+```
+
+```
+  PUT /api/company/updatepassword
+```
+
+```
+  PUT /api/company/updateicon
+```
+
+
+
+
+
