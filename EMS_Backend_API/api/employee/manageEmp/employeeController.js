@@ -914,6 +914,7 @@ module.exports = {
         {
           $match: {
             companyId: mongoose.Types.ObjectId(req.decoded.result._id),
+            startDate: { $lte: today },
             endDate: { $gte: today },
             status: { $nin: ["cancelled", "pending"] },
           },
